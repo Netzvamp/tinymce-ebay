@@ -1,13 +1,17 @@
 // ==UserScript==
-// @name       Replace Editor on eBay.de
-// @namespace  http://ebay.de/
-// @version    0.1
-// @description  Replace eBay auctioneditor with TinyMCE and Dropbox integration
-// @match      *://*.ebay.de/ws/eBayISAPI.dll*
-// @copyright  2015, Robert Lieback
-// @require http://code.jquery.com/jquery-latest.js
-// @require http://tinymce.cachefly.net/4.1/tinymce.min.js
-// @require https://rawgit.com/Netzvamp/tinymce-ebay/master/langs/de.js
+// @name       		Replace Editor on eBay.de
+// @description		Replace eBay auctioneditor with TinyMCE and Dropbox integration
+// @namespace		https://github.com/Netzvamp/tinymce-ebay
+// @version			0.2
+// @author			Robert Lieback (netzvamp)
+// @supportURL 		https://github.com/Netzvamp/tinymce-ebay/issues
+// @updateURL		https://rawgit.com/Netzvamp/tinymce-ebay/master/tinymce-ebay.de.user.js
+// @downloadURL		https://rawgit.com/Netzvamp/tinymce-ebay/master/tinymce-ebay.de.user.js
+// @match      		*://*.ebay.de/ws/eBayISAPI.dll*
+// @copyright  		2015, Robert Lieback
+// @require 		http://code.jquery.com/jquery-latest.js
+// @require 		http://tinymce.cachefly.net/4.1/tinymce.min.js
+// @require 		https://rawgit.com/Netzvamp/tinymce-ebay/master/langs/de.js
 // ==/UserScript==
 
 $(document).ready(function() {
