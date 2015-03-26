@@ -10,8 +10,8 @@ Javascript-Snippet to replace the very limited eBay auctioneditor with the might
     * [Greasemonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) **Doesn't working for now, see the known issues :confused:**
 
 * Click on this link and the Scriptmanager asks you about installation: 
-:gb: __English Version: https://rawgit.com/Netzvamp/tinymce-ebay/master/tinymce-ebay.user.js__
-:de: German Version:  https://rawgit.com/Netzvamp/tinymce-ebay/master/tinymce-ebay.de.user.js
+	* :gb: __English Version: https://rawgit.com/Netzvamp/tinymce-ebay/master/tinymce-ebay.user.js__
+	* :de: German Version:  https://rawgit.com/Netzvamp/tinymce-ebay/master/tinymce-ebay.de.user.js
 
 * Go to [ebay.com](http://www.ebay.com) or the eBay in your country and start an new auction to see the editor in action
 
