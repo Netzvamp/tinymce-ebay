@@ -1,18 +1,17 @@
 // ==UserScript==
-// @name           Replace Editor on eBay.de
+// @name           Replace Editor on eBay
 // @description	   Replace eBay's auction descriptions editor with TinyMCE plus Dropbox integration
 // @namespace      https://github.com/Netzvamp/tinymce-ebay
 // @version        0.3
 // @author         Robert Lieback (netzvamp)
 // @supportURL     https://github.com/Netzvamp/tinymce-ebay/issues
-// @updateURL      https://rawgit.com/Netzvamp/tinymce-ebay/master/tinymce-ebay.de.user.js
-// @downloadURL    https://rawgit.com/Netzvamp/tinymce-ebay/master/tinymce-ebay.de.user.js
+// @updateURL      https://rawgit.com/Netzvamp/tinymce-ebay/master/tinymce-ebay.user.js
+// @downloadURL    https://rawgit.com/Netzvamp/tinymce-ebay/master/tinymce-ebay.user.js
 // @match          *://*.ebay.tld/ws/eBayISAPI.dll*
 // @copyright      2015, Robert Lieback, Apache License 2.0
 // @require        http://code.jquery.com/jquery-latest.js
 // @require        http://tinymce.cachefly.net/4.1/tinymce.min.js
 // @require        http://tinymce.cachefly.net/4.1/jquery.tinymce.min.js
-// @require        https://rawgit.com/Netzvamp/tinymce-ebay/master/langs/de.js
 // ==/UserScript==
 
 $(document).ready(function() {
@@ -62,7 +61,7 @@ $(document).ready(function() {
             },
             setup: function(editor) { // We add an button to insert template from Dropbox
                 editor.addButton('db_template', {
-                    text: 'Template einfügen',
+                    text: 'Insert Template',
                     title: 'Insert Template',
                     icon: 'dropin-icon',
                     onclick: function() {
@@ -85,8 +84,8 @@ $(document).ready(function() {
                     }
                 });
                 editor.addButton('db_image', { // We add an button to insert image from Dropbox
-                    text: 'Bild einfügen',
-                    title: 'insert',
+                    text: 'Insert Image',
+                    title: 'Insert Image',
                     icon: 'dropin-icon',
                     onclick: function() {
                         Dropbox.choose({
